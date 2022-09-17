@@ -32,24 +32,28 @@ public class Burger {
     }
 
     public void setCheeseCalories(int calories){
+
         mCheeseCal = calories;
     }
 
     public void setProsciuttoCalories(int calories){
+
         mProsciuttoCal = calories;
     }
 
     public void clearProsciuttoCalories(){
+
         mProsciuttoCal = 0;
     }
 
     public void setSauceCalories(int calories){
+
         mSauceCal = calories;
     }
 
-
     public int getTotalCalories(){
-       return mPattyCal + mCheeseCal + mProsciuttoCal + mSauceCal;
+
+        return mPattyCal + mCheeseCal + mProsciuttoCal + mSauceCal;
     }
 
 
